@@ -13,7 +13,11 @@ Once you have downloaded Java remember to set up the environmmental variables of
 We are going to use maven, to add all the dependencies, so next step is to install apache maven to be able to compile the code.To install Maven we need to go to the following page, and download the binaries files. http://maven.apache.org/download.cgi
 Once we have downloaded the files we are going to add the folder to the PATH variable and we are going to create the enviroment  variable M2_HOME.If you are running on a MAC run the command brew install maven in any cli you have available.
 
+We are going to work with github, that's why we need to create an account on the following page https://github.com if you already have an account no need to create a new one, you can use your own account. Next we need to download the github cli adn git bash, justo go to the following link and select the the OS you are working on.
+https://git-scm.com/downloads
+
 
 The last thing we are going to download, this is optional but highly recomended, is IntelliJ Community IDE. If you are used to work with a different IDE such as eclipse or NetBeans feel free to work with it, but be sure it has integration with github and also has maven integration. To download IntelliJ IDE go to this page and download the exceutable. https://www.jetbrains.com/es-es/idea/download/#section=windows
 Remember to download the COMMUNITY version.
 
+### Instructions for the challenge
