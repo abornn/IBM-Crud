@@ -33,7 +33,7 @@
     </dependencies>
 
     <build>
-        <finalName>cars</finalName>
+        <finalName>CrudTeamX</finalName>                                         <!-- change for your app name with following Format CrudTeamX -->
         <plugins>
             <plugin>
                 <groupId>io.openliberty.tools</groupId>
