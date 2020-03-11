@@ -1,6 +1,7 @@
 package com.CrudTeamX.ibmcrud.boundary;
 
 import javax.ws.rs.GET;
+import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 
 @Path("helloWorld")
@@ -10,4 +11,8 @@ public class CrudRouter {
         return "Hello World";
     }
 
+    @POST
+    public String helloWorldPost(){
+        return "hello World from post";
+    }
 }
