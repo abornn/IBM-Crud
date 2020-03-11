@@ -14,7 +14,7 @@
     <!-- end::httpEndpoint[] -->
 
     <!-- tag::webApplication[] -->
-    <webApplication location="CrudTeamX.war" contextRoot="${app.context.root}"/>  <!-- change location for your app name with following Format CrudTeamX -->
+    <webApplication location="${app.context.file}.war" contextRoot="${app.context.root}"/>
     <webContainer deferServletLoad="false"/>
     <!-- end::webApplication[] -->
 </server>
