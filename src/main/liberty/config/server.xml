@@ -17,4 +17,20 @@
     <webApplication location="${app.context.file}.war" contextRoot="${app.context.root}"/>
     <webContainer deferServletLoad="false"/>
     <!-- end::webApplication[] -->
+    <!--DB connection driver-->
+    <library id="DB2JCCLib">
+        <fileset dir="${server.config.dir}/myLib"
+                 includes="jcc-11.5.0.0.jar" />
+    </library>
+
+    <dataSource id="amtww"
+                jndiName="jdbc/CustomDB" type="javax.sql.DataSource">
+        <containerAuthData password="c3p-gk5s1811lrnh"
+                           user="fjb29843" />
+        <jdbcDriver libraryRef="DB2JCCLib" />
+        <properties.db2.jcc databaseName="BLUDB"
+                            portNumber="50000" serverName="XXXX" password="XXXX"
+                            user="XXXX"/>  <!--Change server Name password and user for your credentials-->
+    </dataSource>
+
 </server>
