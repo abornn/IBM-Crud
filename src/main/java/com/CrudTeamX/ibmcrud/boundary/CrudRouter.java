@@ -10,9 +10,4 @@ public class CrudRouter {
     public String helloWorld(){
         return "Hello World";
     }
-
-    @POST
-    public String helloWorldPost(){
-        return "hello World from post";
-    }
 }
